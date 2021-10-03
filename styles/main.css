@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+.login__container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.login__container--primero{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.login__container--segundo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.login__container--primero img{
+    width: 70%;
+
+}
+.login__container--primero div{    
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;}
+.login__container--segundoDIV{
+    margin-top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.login__copy--boca{
+    font-family: 'Aclonica', sans-serif;
+    color: rgb(249 168 38);
+    font-size: 3.125rem;
+}
+.login__copy--login{
+    color: #BBC9E0;
+    font-size: 1.875rem;
+}
+input{
+    border-radius: 30px;
+    width: 15.063rem;
+    height: 1.563rem;
+    margin: 7.5px 0 7.5px 0;
+    padding: 5px;
+    padding-left: 15px;
+    box-shadow: rgb(105, 104, 104) 1px 1px 2px;
+    font-size: 0.938rem;
+    font-weight: 600;
+}
+#usuario_login::placeholder {
+    color:rgb(20, 16, 16);
+    font-size: 0.938rem;
+    font-weight: 600;
+}
+#contraseña_login::placeholder {
+    color:rgb(20, 16, 16);
+    font-size: 0.938rem;
+    font-weight: 600;
+}
+button{
+    background: rgb(249 168 38);
+    color: #fff;
+    font-size: 1.875rem;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
