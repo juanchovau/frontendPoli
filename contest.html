@@ -5,8 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/contest.css">
 </head>
 <body>
-    <h1>Contest</h1>
+    <nav class="navBar">
+        <div class="linksAndLogos">
+            <p class="logotipo">BOCA</p>
+            <p><a href="/contest.html">Contest</a></p>
+            <p><a href="#">Options</a></p>  
+        </div>
+        <div class="logout">
+            <a href="#">Logout</a>
+            <img src="./assets/user.png" alt="Logotipo de user">
+        </div>
+    </nav>
+    <section class="container">
+  
+        <form>
+            <h1>Contest</h1>
+            <input type="number" name="contrst number" id="contest-number" placeholder="Contest number:">
+            <input type="text" name="Name" id="name-input" placeholder="Name:">
+            <input type="text" name="Start Date" id="startDate" placeholder="Start Date: DD/MM/AAAA">
+            <input type="number" name="Duration" id="duration" placeholder="Duration: DD">
+            <input type="number" name="Duration Answering" id="duration-answering" placeholder="Duration Answering: HH">
+            <input type="text" name="Stop Scoreboard" id="stopScoreboard" placeholder="Stop Score board:">
+            <input type="text" name="Penalty" id="penalty-input" placeholder="Penalty:">
+            <input type="number" name="Max file" id="maxFileSize"   placeholder="Max file size allowed">
+            <input type="text" name="Contect url" id="contectURL" placeholder="Contest main URL:">
+            <input type="number" name="Site number" id="siteNumber-input" placeholder="Contest main site number:">
+            <input type="number" name="local site number" id="siteNumer-local" placeholder="Contest local site number:">
+
+        </form>
+        <div>
+            <img src="./assets/contest.svg" alt="Hombre cde espaldas configurando setting">
+            <div class="ctaButtons">
+                <button class="activeBTN" >Active</button>
+                <button class="sendBTN">Send</button>
+                <button class="clearBTN">Clear</button>
+            </div>
+        </div>
+    </section>
+    <script src="./scripts/dataBase.js"></script>
+    <script src="./scripts/contest.js"></script>
 </body>
 </html>

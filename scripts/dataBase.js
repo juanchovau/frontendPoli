@@ -16,3 +16,4 @@ const data = [
         contrasenia : "456cami"
     },
 ]
+const contest = [];
