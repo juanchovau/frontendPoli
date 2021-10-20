@@ -34,8 +34,8 @@ const crearData = () =>{
         contestName: contestName.value, 
         contestStartDate: contestStartDate.value, 
         contestDuration: contestDuration.value, 
-        contestDurationAnswerin: contestDurationAnswering.value,  
-        contestDurationAnswerin: contestStopScoreboard.value, 
+        contestDurationAnswering: contestDurationAnswering.value,  
+        contestDurationStopScoreboar: contestStopScoreboard.value, 
         contestpenalty: contestpenalty.value, 
         contestMaxFileSize: contestMaxFileSize.value, 
         contestContectUR: contestContectURL.value, 
@@ -52,6 +52,7 @@ clearBTN.addEventListener("click", (event)=>{
 sendBTN.addEventListener("click", (event)=>{
     event.preventDefault();
     contest.push(crearData());
+    window.sessionStorage.setItem('contest', JSON.stringify(contest));
     limpiar();
 })
 

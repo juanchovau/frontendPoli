@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/contest.css">
+    <link rel="stylesheet" href="./styles/options.css">
+</head>
+<body>
+    <nav class="navBar">
+        <div class="linksAndLogos">
+            <a href="/"><p class="logotipo">BOCA</p></a>
+            <p><a href="/contest.html">Contest</a></p>
+            <p><a href="/options.html">Options</a></p>  
+        </div>
+        <div class="logout">
+            <a href="#">Logout</a>
+            <img src="./assets/user.png" alt="Logotipo de user">
+        </div>
+    </nav>
+    <section class="containerOptions">
+        <div class="container__primeraSec">
+            <h2>
+                Select a contest  <br>
+                or create a <span>new one</span> 
+            </h2>
+            <input type="number" name="ContextNumber" id="contextNumberInput" placeholder="Context number">
+            <button>Send</button>
+        </div>
+        <div>
+            <img src="./assets/options.png" alt="Hombre viendo opciones">
+            <div id="contestInfo"></div>
+        </div>
+    </section>
+    <script src="./scripts/dataBase.js"></script>
+    <script src="./scripts/options.js"></script>
+</body>
+</html>

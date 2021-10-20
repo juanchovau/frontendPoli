@@ -1,0 +1,53 @@
+.containerOptions{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container__primeraSec{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.container__primeraSec h2{
+    color: #342C2C;
+    font-size: 64px;
+}
+.container__primeraSec span{
+    color: #C06970;
+}
+.container__primeraSec input{
+    margin-top: 50px;
+}
+.container__primeraSec button{
+    margin-top: 50px;
+    width: 250px;
+    display: none;
+}
+#contestInfo{
+    display: none;
+    padding: 10%;
+    background: rgba(121, 163, 241, 0.8);
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+#contestInfo h2{
+    color: #C06970;
+    font-size: 64px;
+    font-weight: bold;
+}
+#contestInfo p {
+    display: flex;
+    align-items: baseline;
+    color: #fff;
+    font-size: 25px;
+    gap: 5px;
+    font-weight: 900;
+}
+.intoTitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: #416ab5;
+}
